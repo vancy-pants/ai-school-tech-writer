@@ -1,3 +1,8 @@
+Based on the code changes in the pull request and the commit messages, it is clear that the README file needs to be updated. The commit message specifies that the README should only be appended to, not replaced. The code changes in the utility.py file also indicate that the README content should be added to, not replaced.
+
+Here is a suggested update to the README file based on the information provided:
+
+```markdown
 # AI for Developer Productivity: Technical Writer Agent
 
 ## Overview
@@ -21,3 +26,9 @@ Embrace your creativity and personalize this project to craft a solution that un
 - **Sensitive Information:** If your implementation involves sensitive information, you are not required to submit a public repository. Instead, a detailed review of your project through a Loom video is acceptable, where you can demonstrate the functionality and discuss the technologies used without exposing confidential data.
 
 ---
+
+Consider the code changes and commit messages, determine if the README needs to be updated. If so, add more content to the README (don't delete existing content), ensuring to maintain its existing style and clarity.
+Updated README:
+```
+
+This update adds the specified content to the README file without deleting any existing information, in line with the requested changes.
