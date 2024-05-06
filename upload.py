@@ -3,6 +3,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_pinecone import PineconeVectorStore
 from langchain_community.document_loaders.text import TextLoader
 from langchain_community.document_loaders import DirectoryLoader
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Prep documents to be uploaded to the vector database (Pinecone)
 loader = DirectoryLoader('../', glob="**/lyrics/*.txt", loader_cls=TextLoader)
